@@ -1,10 +1,39 @@
 .NajoLogo img{
-    width: 200px; 
+    width: 150px; 
     height: auto;
     height: auto; 
     max-width: 300px;
 }
 
-.topnav{
-    text-align: right;
+body{
+    margin: 0px;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.topnav {
+    list-style-type: none;
+    background-color: #f2f2f2;
+    padding: 0;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.topnav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.topnav a:hover{
+background-color: #222;
+}
+
+.topnav li{
+    float: right;
 }
