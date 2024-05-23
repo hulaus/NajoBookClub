@@ -32,7 +32,14 @@ Background Color: Soft Olive Green (#A5A58D)
 Text Color: Antique White (#FFF7E3)
 Links/Icons: Dusty Rose (#C18E87)
 */
+.heading{
+    background-color: var(--color-antique-white);
+    padding: 5px;
+}
 
+.heading h1{
+    text-align: center;
+}
 .NajoLogo {
     align-items: center;
 }
@@ -45,6 +52,9 @@ Links/Icons: Dusty Rose (#C18E87)
 
 body{
     margin: 0px;
+    background-color: var(--color-creamy-beige);
+    color: var(--color-soft-olive-green);
+
 }
 
 main{
@@ -53,6 +63,7 @@ main{
 }
 
 .topnav {
+    background-color: var(--color-soft-olive-green);
     list-style-type: none;
     padding: 0;
     margin: 0px;
@@ -60,20 +71,16 @@ main{
 }
 
 .topnav a{
-    color: black;
+    color: var(--color-antique-white);
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
-    border-right-style:groove;
-    border-width: .25px;
-    border-color:#355C7D;
-
 }
 
 .topnav a:hover{
 border-radius: 2.5px;
-box-shadow: lightslategray;
+background-color: var(--color-warm-terracotta);
 }
 
 .topnav li{
